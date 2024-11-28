@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <title>O Cristal das Estrelas</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="Carta antiga em uma mesa de madeira">
+            <p>Dentro de um velho baú da sua família, você encontra um mapa e uma carta misteriosa falando sobre o "Cristal das Estrelas", um artefato lendário capaz de revelar segredos do universo. Intrigado(a), você decide seguir as pistas para encontrá-lo.</p>
+            <button class="btn-proximo" data-proximo="1">Seguir para o Egito</button>
+            <button class="btn-proximo" data-proximo="2">Explorar os Andes</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>No Egito, você encontra hieróglifos que falam de uma "jóia que brilha com as estrelas". As pistas levam você ao Vale dos Reis.</p>
+            <button class="btn-proximo" data-proximo="3">Explorar as tumbas</button>
+            <button class="btn-proximo" data-proximo="4">Procurar ajuda com historiadores locais</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Nos Andes, você descobre lendas sobre um cristal escondido em uma montanha sagrada. Para onde você vai?</p>
+            <button class="btn-proximo" data-proximo="5">Escalar uma montanha à noite</button>
+            <button class="btn-proximo" data-proximo="6">Perguntar aos habitantes locais</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Nas tumbas do Vale dos Reis, você encontra uma sala secreta onde uma constelação está esculpida no teto. A próxima pista aponta para a Amazônia.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a Amazônia</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-ajuda-local.png" alt="Arqueólogos estudando">
+            <p>Os historiadores locais revelam que o cristal foi levado para outro continente, mas não sabem exatamente para onde. A sua aventura termina por aqui, mas você continua curioso(a).</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas montanhas, você observa uma constelação apontando para um ponto no céu. Você encontra uma pedra luminosa que indica que a próxima pista está na Amazônia.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para a Amazônia</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Os habitantes locais contam histórias sobre um cristal, mas dizem que ele desapareceu há séculos. Você decide voltar para explorar outra montanha.</p>
+            <button class="btn-proximo" data-proximo="5">Voltar e escalar outra montanha</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Na Amazônia, você encontra uma caverna que brilha como se estivesse cheia de estrelas. Dentro dela, você percebe um mecanismo misterioso.</p>
+            <button class="btn-proximo" data-proximo="9">Ativar o mecanismo</button>
+            <button class="btn-proximo" data-proximo="10">Explorar mais profundamente a caverna</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O mecanismo revela o Cristal das Estrelas. Ele brilha intensamente e projeta constelações que parecem contar histórias de civilizações antigas.</p>
+            <button class="btn-proximo" data-proximo="11">Estudar o cristal e seus segredos</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Ao explorar mais profundamente, você se perde nos túneis da caverna. Infelizmente, sua busca termina aqui.</p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cristal-estrelas.png" alt="Um cristal brilhante cercado de luzes">
+            <p>Você decide proteger e estudar o Cristal das Estrelas, para compreender os segredos que ele guarda sobre o universo.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
